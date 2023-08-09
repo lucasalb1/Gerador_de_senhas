@@ -16,12 +16,12 @@
     
     <input type="range" name="slider" id="slider" max="25" min="5">
 
-    <button id="button" class="button">Gerar Senha</button>
+    <button id="button" class="button" onclick="generatePass()">Gerar Senha</button>
     </div>
 
-    <section id="container-password" class="container-password hide">
+    <section id="container-password" class="container-password hide" >
         <span id="gerar" class="gerar">Sua senha gerada foi:</span>
-        <span id="pass" class="pass"> 123123123123</span>
+        <span id="pass" class="pass" onclick="copyPass()"></span>
         <span id="copy" class="copy">Clique na senha para copiar ☝</span>
     </section>
     <script src="home.js"></script>
